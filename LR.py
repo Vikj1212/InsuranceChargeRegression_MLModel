@@ -47,9 +47,9 @@ test_y =  test['charges']
 test_x =  test.drop(columns=['charges'])
 
 # print(data.keys())
-#print(data.head())
+#print(data.head())cd 
 
-
+print(data.head)
 H_Ins_model = LinearRegression0()
 H_Ins_model.fit(data, np.log(y))
 
